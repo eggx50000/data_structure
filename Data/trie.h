@@ -6,6 +6,7 @@ struct node{
     node(){
         for(int i = 0; i < 26; i ++) child[i] = nullptr;
         en = false;
+        en = en;
     }
     ~node(){
         for(int i = 0; i < 26; i ++){
